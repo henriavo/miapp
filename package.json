@@ -15,6 +15,7 @@
 		"@neoconfetti/svelte": "^1.0.0",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-node": "^1.0.0",
 		"@sveltejs/kit": "next",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
