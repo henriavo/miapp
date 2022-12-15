@@ -36,3 +36,29 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Deploying
+Install adapter for Svelte with:
+```
+npm i -D @sveltejs/adapter-node
+```
+
+Add below line to `svelte.config.js`:
+```
+import adapter from '@sveltejs/adapter-node';
+```
+On digital ocean app settings for component add below to 'Build Command': 
+```
+npm run build
+```
+
+On digital ocean app settings for component add below to 'Run Command': 
+```
+node build
+```
+Resources:
+
+https://kit.svelte.dev/docs/adapters
+
+https://github.com/sveltejs/kit/tree/master/packages/adapter-node
+
